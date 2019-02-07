@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		101A90A7220C681600AA88DB /* SlideToDismissController.h in Headers */ = {isa = PBXBuildFile; fileRef = 101A90A5220C681600AA88DB /* SlideToDismissController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		101A90AE220C68B200AA88DB /* SlideToDismissController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101A90AD220C68B200AA88DB /* SlideToDismissController.swift */; };
 		101A90B3220C6B0A00AA88DB /* LayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101A90B2220C6B0A00AA88DB /* LayoutHelper.swift */; };
 /* End PBXBuildFile section */
 
@@ -15,6 +16,7 @@
 		101A90A2220C681600AA88DB /* SlideToDismissController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SlideToDismissController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		101A90A5220C681600AA88DB /* SlideToDismissController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlideToDismissController.h; sourceTree = "<group>"; };
 		101A90A6220C681600AA88DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		101A90AD220C68B200AA88DB /* SlideToDismissController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideToDismissController.swift; sourceTree = "<group>"; };
 		101A90B2220C6B0A00AA88DB /* LayoutHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +62,7 @@
 		101A90AF220C696600AA88DB /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				101A90AD220C68B200AA88DB /* SlideToDismissController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				101A90AE220C68B200AA88DB /* SlideToDismissController.swift in Sources */,
 				101A90B3220C6B0A00AA88DB /* LayoutHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

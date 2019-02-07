@@ -26,6 +26,6 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/onurtorna/SlideToDismissController", :tag => "#{s.version}" }
 
-  s.ios.vendored_framework   = 'ios/SlideToDismissController.framework'
+s.source_files = 'SlideToDismissController/*'
 
 end
